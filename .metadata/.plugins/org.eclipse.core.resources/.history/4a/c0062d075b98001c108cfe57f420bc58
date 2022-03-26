@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+/** 
+* @Author -- TkGitcode
+*/
+public class Viral_Advertising {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int shared,liked=1,com=0,val=1;
+		 shared=n;
+		
+		for(int i=0;i<n;i++)
+		{
+			
+			liked=shared/2; //2
+			val=shared-liked; //3
+			com+=liked; //2
+			shared=val*liked;
+		   System.out.println("liked "+liked);
+		   
+		}
+		System.out.println(com);
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package Practice;
+
+import java.util.Scanner;
+
+/** 
+* @Author -- TkGitcode
+*/
+public class Codecheff {
+
+	static rem()
+	{
+		
+	}
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		while(n-- >0)
+		{
+			int a=sc.nextInt();
+		}
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package Practice;
+/** 
+* @Author -- TkGitcode
+*/
+public class list {
+
+	public static void main(String[] args) {
+		Stack<Integer> n=new Stack<>();
+
+	}
+
+}

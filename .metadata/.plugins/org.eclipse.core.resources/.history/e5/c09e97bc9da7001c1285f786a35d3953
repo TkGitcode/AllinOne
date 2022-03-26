@@ -1,0 +1,32 @@
+package Practice;
+
+import java.util.Scanner;
+
+/** 
+* @Author -- TkGitcode
+*/
+public class Codecheff {
+
+	static String[] rem(long n)
+	{
+		String k="";
+		String k1[]=new String[]
+		while(n!=0)
+		{
+			int rem=n%10;
+			
+		}
+		return 
+	}
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		while(n-- >0)
+		{
+			long a=sc.nextInt();
+		}
+
+	}
+
+}

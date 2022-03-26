@@ -1,0 +1,12 @@
+package Practice;
+/** 
+* @Author -- TkGitcode
+*/
+public class Pattern2 extends Pattern{
+	public static void main(String[] args) {
+		
+		int n=Pattern.sc.nextInt();
+	}
+	
+	
+}

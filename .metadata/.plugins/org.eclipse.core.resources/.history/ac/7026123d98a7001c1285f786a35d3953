@@ -1,0 +1,34 @@
+package Practice;
+
+import java.util.Scanner;
+
+/** 
+* @Author -- TkGitcode
+*/
+public class Codecheff {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		for(int i=0;i<n;i++)
+		{
+		    int a=sc.nextInt();
+		    int rem=a%10;
+		    int qut=a/10;
+		    int fin=0,flag=0;
+		    if(rem==5)
+		    {
+		    fin=qut+1;
+		    }
+		    else
+		    {
+		    fin=qut;
+		    }
+		    if(qut==0 && a!=5)
+		    fin=-1;
+		    System.out.println(fin);
+		}
+
+	}
+
+}

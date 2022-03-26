@@ -1,0 +1,38 @@
+package com.onlineexamconduction;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Scanner;
+
+/**
+ * @Author -- TkGitcode
+ */
+public class QuestionAnswer {
+	static int count = 0, Score = 0;
+
+	void QuestionAnswerSession() throws SQLException {
+		try (Scanner scanner = new Scanner(System.in)) {
+			Connection connection = User.getConnection();
+			Statement stmt = connection.createStatement();
+			ResultSet rs = stmt.executeQuery("select * from questionandanswer_tbl");
+			System.out.println("1 for true and 0 for false");
+			while (rs.next()) {
+				System.out.println(rs.getString(2));
+
+				int answer = scanner.nextInt();
+				System.out.println(rs.getString(3)+ " Answer Value"); 
+				if (rs.getString(3).equals(String.valueOf(answer)))
+					Score = Score + 10;
+				else
+					Score = Score - 5;
+			}
+		}
+		System.out.println("Your Score is " + Score);
+	}
+
+	int getScore() {
+		return QuestionAnswer.Score;
+	}
+}

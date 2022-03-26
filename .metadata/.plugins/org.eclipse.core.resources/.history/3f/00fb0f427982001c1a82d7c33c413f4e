@@ -1,0 +1,15 @@
+package Java1;
+
+public class randomstring {
+
+	public static void main(String[] args) {
+		String l= "ABCDEFGHIJKLMNOPQRSTUVWXYZ12345";
+        String Pswt = "";
+        for(int i=0;i<10;i++)
+        {
+        	Pswt += l.charAt((int)(Math.random() *  l.length()));
+        }
+        System.out.print(Pswt);
+	}
+
+}

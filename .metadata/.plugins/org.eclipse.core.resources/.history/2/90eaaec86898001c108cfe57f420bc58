@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+/** 
+* @Author -- TkGitcode
+*/
+class Retpos
+{
+	int a[];
+	int n=0;
+	Retpos(int b[],int n)
+	{
+		a=b;
+		this.n=n;
+	}
+	int Tofin(int k)
+	{
+	int i=0;
+	for( i=0;i<n;i++)
+	{
+		if(a[i]==k)
+		{
+			System.out.println("a[i]"+a[i]);
+			return i;
+		}
+	}
+	return i;
+	}
+}
+public class Sequence_Equation {
+
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int a[]=new int[100];
+		for(int i=0;i<n;i++)
+		{
+			a[i]=sc.nextInt();
+		}
+		Retpos r=new Retpos(a,n);
+		for(int i=1;i<=n;i++)
+		{
+			int pos=r.Tofin(i);
+			System.out.println(pos);
+		}
+
+	}
+
+}

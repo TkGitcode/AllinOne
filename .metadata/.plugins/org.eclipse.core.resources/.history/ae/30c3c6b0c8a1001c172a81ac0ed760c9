@@ -1,0 +1,9 @@
+package Practice;
+/** 
+* @Author -- TkGitcode
+*/
+public class Pattern2 extends Pattern{	
+		int n=Pattern.sc.nextInt();
+	Pattern.sc.close();
+	
+}

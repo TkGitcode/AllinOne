@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+/** 
+* @Author -- TkGitcode
+*/
+
+public class Find_Digits {
+
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		for(int i=0;i<n;i++)
+		{
+			int re=0,rev=0;
+			int val=sc.nextInt();
+			while(val!=0)
+			{
+				re=val%10;
+				System.out.println(re);
+				val=val/10;
+			}
+		}
+
+	}
+
+}

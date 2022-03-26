@@ -1,0 +1,25 @@
+package Practice;
+/** 
+* @Author -- TkGitcode
+*/
+public class Pattern4 {
+
+	public static void main(String[] args) {
+		int n=6;
+		int n1=5,a=0,b=1,val1=0;
+		for(int i=1;i<n;i++)
+		{
+			for(int j=1;j<n;j++)
+			{
+				if(j>n1)
+					System.out.println(b++);
+				else
+					val1=i+j+a+1;
+				
+					
+			}
+		}
+
+	}
+
+}

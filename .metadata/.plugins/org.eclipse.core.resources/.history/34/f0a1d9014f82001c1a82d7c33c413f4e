@@ -1,0 +1,22 @@
+package Java1;
+
+import java.util.Scanner;
+
+public class oddoreven {
+    public static void main(String... args)
+    {
+    	Scanner c1 =new Scanner(System.in);
+    	int n=c1.nextInt();
+    	int n1=0;
+    	if(n%2==0)
+    	{
+    		n1=n/2;
+    		System.out.printf("%d is even so i take half %d",n,n1);
+    	}
+    	else
+    	{
+    		System.out.printf("%d is odd so i make 3*n+1 = %d",n,3*n+1);
+    	}
+    	c1.close();
+    }
+}

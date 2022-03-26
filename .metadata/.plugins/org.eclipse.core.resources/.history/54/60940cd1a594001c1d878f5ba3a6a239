@@ -1,0 +1,12 @@
+package Stack;
+/** 
+* @Author -- TkGitcode
+*/
+public class passing_object_as_Argument {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

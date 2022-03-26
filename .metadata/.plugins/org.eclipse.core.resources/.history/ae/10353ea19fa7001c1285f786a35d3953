@@ -1,0 +1,38 @@
+package Practice;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+/** 
+* @Author -- TkGitcode
+*/
+public class Codecheff {
+
+	static ArrayList<Integer> rem(long n)
+	{
+		int rem;
+		int j=0;
+		String k2=String.valueOf(n);
+		ArrayList<Integer> k1=new ArrayList<>();
+		while(n!=0)
+		{
+			rem=(int) (n%10);
+			k1.add(rem);
+			n=n/10;
+		}
+		return k1;
+	}
+	public static void main(String[] args) {
+		ArrayList<Integer> al=new ArrayList<>();
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		while(n-- >0)
+		{
+			long a=sc.nextInt();
+			al=rem(a);
+			if()
+		}
+
+	}
+
+}

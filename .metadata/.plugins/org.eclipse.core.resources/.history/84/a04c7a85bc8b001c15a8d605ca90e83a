@@ -1,0 +1,92 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+/** 
+* @Author -- TkGitcode
+*/
+public class multi_fact {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a Multiplication array value");
+		int n=sc.nextInt();
+		System.out.println("Enter a Factorial array value");
+		int m=sc.nextInt();
+		int multarr[]=new int[n];
+		int factarr[]=new int[m];
+		int multarr_store[]=new int[500];
+		int factarr_store[]=new int[500];
+		int factarr_store1[]=new int[500];
+		int mult=1,k=0,k1=0,k2=0,k3=0;
+		//multarr_store[0]=0;
+		//factarr_store[0]=0;
+		System.out.println("Enter a multiple array value");
+		
+		for(int i=0;i<n;i++)
+		{
+			multarr[i]=sc.nextInt();
+		}
+		System.out.println("Enter a Factorial array ");
+		for(int i=0;i<m;i++)
+		{
+			factarr[i]=sc.nextInt();
+		}
+		int clone_fac[]=factarr.clone();
+		//System.out.println("Factorial");
+		for(int i=0;i<m;i++)
+		{
+			for(int j=1;j<factarr[i];j++)
+			{
+			if(factarr[i]%j==0)
+			{
+				factarr_store[k++]=j;
+				//System.out.print(j+" ");
+			}
+			}
+			//System.out.println();
+		}
+		
+		Arrays.sort(clone_fac);
+		//System.out.println("Multiplication");
+		for(int i=0;i<n;i++)
+		{
+			//System.out.println(clone_fac[m-1]);
+			for(int j=1;j<clone_fac[m-1];j++)
+			{
+				
+				mult=j*multarr[i];
+				multarr_store[k1++]=mult;
+				//System.out.print(mult+" ");
+			}
+			//System.out.println();
+		}
+		System.out.println("Fact");
+		for(int i=0;i<k;i++)
+		{
+			System.out.print(factarr_store[i]+" ");
+		}
+		System.out.println("Mul");
+//		for(int i=0;i<k1;i++)
+//		{
+//			System.out.print(multarr_store[i]);
+//		}
+		System.out.println("Fac Final");
+		for(int i=0;i<k-1;i++)
+		{
+			for(int j=i+1;j<k;j++)
+			{
+				if(factarr_store[i]!=factarr_store[j])
+				{
+					factarr_store1[k2++]=factarr_store[j];
+				}
+			}
+				
+		}
+		for(int i=0;i<k2;i++)
+		{
+			System.out.print(factarr_store1[i]+" ");
+		}
+		
+	}
+
+}

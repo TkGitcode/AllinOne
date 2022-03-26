@@ -1,0 +1,18 @@
+package Stack;
+/** 
+* @Author -- TkGitcode
+*/
+class object1
+{
+	object
+}
+public class passing_object_as_Argument {
+
+	public static void main(String[] args) {
+		object1 ob1;
+		ob1 =new object(45,65,21);
+		ob1 =new object2(45,65,21);
+
+	}
+
+}
