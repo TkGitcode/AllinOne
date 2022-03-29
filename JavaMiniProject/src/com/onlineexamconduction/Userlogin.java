@@ -11,11 +11,6 @@ class Userlogin extends User {
 	int flag = 0;
 	Connection connection = DataBase.getConnection();
 	Userlogin() throws SQLException {
-
-		
-		
-		
-		
 		System.out.println("Enter a Mail ID");
 		String UseMailId = scanner.next();
 		
