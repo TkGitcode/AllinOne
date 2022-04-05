@@ -100,7 +100,7 @@ int flag=0;
 					// Checking the Given Move is less than 3
 					while (step > 3) {
 						System.out.println("Enter Your Step to Move");
-						step = scanner.nextInt();
+						step = random.nextInt(4);
 					}
 					arr[ply01][ply11] = 0;
 
@@ -118,7 +118,7 @@ int flag=0;
 					System.out.println("Current Player1 Position :" + ply01 + " " + ply11);
 					while (step > 3) {
 						System.out.println("Enter Your Step to Move");
-						step = scanner.nextInt();
+						step = random.nextInt(4);
 					}
 					arr[ply01][ply11] = 0;
 					int i1 = ply01 + step;
@@ -132,7 +132,7 @@ int flag=0;
 					System.out.println("Current Player1 Position :" + ply01 + " " + ply11);
 					while (step > 3) {
 						System.out.println("Enter Your Step to Move");
-						step = scanner.nextInt();
+						step = random.nextInt(4);
 					}
 					arr[ply01][ply11] = 0;
 					int j = ply11 - step;
@@ -146,7 +146,7 @@ int flag=0;
 					System.out.println("Current Player1 Position :" + ply01 + " " + ply11);
 					while (step >= 3) {
 						System.out.println("Enter Your Step to Move");
-						step = scanner.nextInt();
+						step = random.nextInt(4);
 					}
 					arr[ply01][ply11] = 0;
 					int j1 = ply11 + step;
@@ -168,7 +168,7 @@ int flag=0;
 					System.out.println("Current Player2 Position :" + ply02 + " " + ply12);
 					while (step > 3) {
 						System.out.println("Enter Your Step to Move");
-						step = scanner.nextInt();
+						step = random.nextInt(4);
 					}
 					arr[ply02][ply12] = 0;
 					int i = ply02 - step;
@@ -182,7 +182,7 @@ int flag=0;
 					System.out.println("Current Player2 Position :" + ply02 + " " + ply12);
 					while (step > 3) {
 						System.out.println("Enter Your Step to Move");
-						step = scanner.nextInt();
+						step = random.nextInt(4);
 					}
 					arr[ply02][ply12] = 0;
 					int i1 = ply02 + step;
@@ -196,7 +196,7 @@ int flag=0;
 					System.out.println("Current Player2 Position :" + ply02 + " " + ply12);
 					while (step >= 3) {
 						System.out.println("Enter Your Step to Move");
-						step = scanner.nextInt();
+						step = random.nextInt(4);
 					}
 					arr[ply02][ply12] = 0;
 					int j = ply12 - step;
@@ -210,7 +210,7 @@ int flag=0;
 					System.out.println("Current Player2 Position :" + ply02 + " " + ply12);
 					while (step > 3) {
 						System.out.println("Enter Your Step to Move");
-						step = scanner.nextInt();
+						step = random.nextInt(4);
 					}
 					arr[ply02][ply12] = 0;
 					int j1 = ply12 + step;
