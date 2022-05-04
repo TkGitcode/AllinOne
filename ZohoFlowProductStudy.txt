@@ -1,0 +1,15 @@
+The Best example for Garbage Collector is Daemon Thread
+
+AppBook
+
+Three Type of Trigger
+1) App Trigger(Trigger When Event Occurs in App)
+2) Schedule Trigger(Trigger One Time)
+3) Webhook Trigger(Push a data from Third Party)
+
+What is Webhook?
+1)Then Machanism of Calling a URL when an Event occurs
+2)Via URL Which data is sent from one application to another when Event Occurs
+
+In Zoho Flow Webhook Supports JSON,FormData,PlainText Data's
+
