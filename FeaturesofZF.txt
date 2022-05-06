@@ -1,0 +1,11 @@
+Zoho Flow Top Features
+1)Automating process by adding teammates
+2)Flow Gallery
+
+Zoho Flow Features 
+1)Create Flow
+2)Filter and Search for flow
+3)Switch on/off flows
+4)Delete Flows
+5)Create copy of flows
+

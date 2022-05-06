@@ -1,15 +1,43 @@
-The Best example for Garbage Collector is Daemon Thread
-
-AppBook
+What are they in ZohoFlow?
+1)Dashboard
+In DashBoard We can See Flow Overview(Total,Alive),Execution DateRange(Graph),
+Recent Execution(History),TopFive(Most Triggered Flow)
+2)My Flows
+All Flow are there, what we Created
+3)Settings
+User Details
+4)And then we can Create a Flow
 
 Three Type of Trigger
 1) App Trigger(Trigger When Event Occurs in App)
 2) Schedule Trigger(Trigger One Time)
-3) Webhook Trigger(Push a data from Third Party)
+3) Webhook Trigger(Push a data from Third Party)(Data Trigger Through API)
 
+*App Trigger
+There are two type of App Trigger
+*pooling (It Automatically fetches last updated date)
+*RealTime(You will ask to Make a update)
 What is Webhook?
 1)Then Machanism of Calling a URL when an Event occurs
 2)Via URL Which data is sent from one application to another when Event Occurs
 
 In Zoho Flow Webhook Supports JSON,FormData,PlainText Data's
 
+Logic
+Three Type
+1)Flow Control
+2)Notification
+3)Customer Function
+
+ * Flow Control
+1)Set Variable(To Use Formula Value)
+2)Decision(Based on the Condition)
+3)Delay(Delay Task) TwoType - Delay for,Delay Until
+ * Notification
+Send a Notification Through WorkFlow
+ *Customer Fuction
+1)To create a Your Own Function 
+2)Zoho Flow Use Deluge Script for Scripting
+
+*Via Customer Function We can modify or access web resource using by API or HTTP using invokeURL task
+*DataMapping(Consistent flow of Data (or) Information through apps)

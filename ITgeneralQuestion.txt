@@ -1,0 +1,5 @@
+1)What is Slack channel?
+Communicating with People through Connecting app is known as Slack (or) Slack Message
+2)The Best example for Garbage Collector is Daemon Thread
+
+yajsu(yet another java startup - 1999)tech-Zoho 1st X zoho Employee
